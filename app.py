@@ -30,8 +30,8 @@ def fake_news(news):
 
 
 if __name__ == '__main__':
-    st.title('Fake News Classification app ')
-    st.subheader("Input the News content below")
+    st.title('Fake News Detector')
+    st.subheader("Input the News (POLITICAL) content below")
     sentence = st.text_area("Enter your news content here", "",height=200)
     predict_btt = st.button("predict")
     if predict_btt:
@@ -41,3 +41,4 @@ if __name__ == '__main__':
             st.success('Reliable')
         if prediction_class == [1]:
             st.warning('Unreliable')
+
