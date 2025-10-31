@@ -1,0 +1,6 @@
+streamlit
+scikit-learn
+nltk
+pickle-mixin
+numpy
+pandas
